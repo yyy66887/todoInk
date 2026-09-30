@@ -1,0 +1,285 @@
+{
+  "date": "2026-09-22",
+  "task": "REPLY-RESEARCH",
+  "scope": "Application source, schema and build configuration; documentation excluded",
+  "comparison": {
+    "before": 68,
+    "after": 68,
+    "changed": [],
+    "removed": []
+  },
+  "files": [
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "AE260D76864732CA5B26C32CA3190AD2DC548D0EDD841EFC39EF07AC0CAA46C6"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "sha256": "90CF9C59FA5BE946975C04974BB20B9596F8EC4D9EA2B2169121A5F6C68D8C5F"
+    },
+    {
+      "path": "app/schemas/com.todoink.app.data.db.TodoInkDatabase/1.json",
+      "sha256": "94C560A1EA20A4268E3F1DF8EABA0899E1F4C714B912B3F6BE4C456ABFCA9E07"
+    },
+    {
+      "path": "app/src/androidTest/java/com/todoink/app/data/repository/NotificationRepositoryStorageTest.kt",
+      "sha256": "44F13180513A013EE7DEBF17838EB6B3BCF58D96956831840298078F064E20B6"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "164E0328E93D8DA71D310A1E9552130C15B80C6E9576BE6EE332AABB74C252F3"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/Converters.kt",
+      "sha256": "D758B3ACE4586A0DF0A230120131C87779938BE11905E512634CBEBA3489F50F"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/NotificationSnapshotDao.kt",
+      "sha256": "B889ACB4351FEB41C3C5FC248F3030AAA4F09A2A25A2715C711B16F00B2A75A9"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/NotificationSnapshotEntity.kt",
+      "sha256": "9B05DD413C5858B142B66662ED8FC4E6AE6E94E9EE023CD6D9C134ABDBDFEFC9"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/TodoInkDatabase.kt",
+      "sha256": "7C151A8DE0F8EFE1AC29883A72A9A38BDBEE14F095D9E2BA6055276F51AB9EC6"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/repository/NotificationRepository.kt",
+      "sha256": "FE3DA5AF4FD140083992841513DF704EEE331FC6BD6A54A6FB0C1D25D341A484"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/settings/ListenerStatusStore.kt",
+      "sha256": "E8D7FAAD1D21954E1903BA586C57E99AAE992C8D313A3A6D0E2C5056178D664D"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/settings/RetentionSettings.kt",
+      "sha256": "6E93E3CAF2715C8CF3A241AE5FC39FF3228CB35A5A691C4098DB0ABFA0591EB3"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/settings/SettingsRepository.kt",
+      "sha256": "22C65E2325CA36BE45E407771E1445BD08834FF5FD1CE83974013869A77EE3E4"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/settings/SourceSettings.kt",
+      "sha256": "1F2DCA308402ACEC8CEEC51C342B52146F6A6CAD8A17372D1B348FFEC49503DA"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/settings/StatusRecorder.kt",
+      "sha256": "BF60B552768286DEDDB4C88540DF8FB74AE840555F6B8FDD47459DF720E1CA7B"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/device/DeviceTransport.kt",
+      "sha256": "47A2FCEDAE6729EB4C8222A782D929B769364CFD71FE193FAEF99F7F7793AC14"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/di/ApplicationScope.kt",
+      "sha256": "30928D6297EC066C13BB5C50ECA64AD138FE65344B063413508DD548D812DF63"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/di/AppModule.kt",
+      "sha256": "F128853DD05590101ED9438FED8D09058620278C998722D0003157AB67932BE5"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/MainActivity.kt",
+      "sha256": "A65215093722AE4A8F0844CD5CF3C587998950489516B306576DE63BBFBC1156"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/model/NotificationSnapshotDraft.kt",
+      "sha256": "36970DC8DC0170BE936C4D00E477CEBED6F57BB1AD6B9AB4614A4F848491A600"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/model/ParsedMessage.kt",
+      "sha256": "4D54120D8FE90494B3A5411A71A3D68293F1D27C3191EDC149E8D3679C4F7885"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/NotificationIntake.kt",
+      "sha256": "CA11B884430FDD3688CE22A78F68A00D21F0CB3CB2C7C5B2C3B93D80E22F1CA7"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/NotificationRecorder.kt",
+      "sha256": "63A959576655C8DD6D9661C99863BF4AF21AB88E70D88AF55AC5DEAA6E94861F"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/parser/GenericParser.kt",
+      "sha256": "C8A76122150BD6E273BFA8AA13E95094C8E49B4C5157B9A99FAAFFD7FDD6F526"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/parser/NotificationParser.kt",
+      "sha256": "270B53D49E6ACC805502C664BB3C3230AF4C28BBA393216FEB40B4EC650E5D3F"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/parser/ParserRegistry.kt",
+      "sha256": "5763230EFDF694B669EA08FD0CD0F54FE431AB4C1CF1FE8119615E33178B5C19"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/SnapshotExtractor.kt",
+      "sha256": "935CDD015840399261D5794DCAE5A8663E9C1C637A0A0CC326563266EB50F019"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/TodoInkNotificationListenerService.kt",
+      "sha256": "C93191B558FEA8AFF5DB9B765C8A4ABE822FC36BFE77B634B5748DF13B76C2C2"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/time/AppClock.kt",
+      "sha256": "294A85FCE1C16E4989D2ED2294F7A74E4848FD69F77399A33761238CDE485681"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/TodoInkApplication.kt",
+      "sha256": "BF276362159FCA432CE8CC042A5FFE150163000130292D1FF7E9702E84729F37"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/candidates/CandidatesScreen.kt",
+      "sha256": "8A685E8B0A6ACDC8EDD463C249814E41A44AF09C5DBD5C9FE761DAFFAA9B294A"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/components/EmptyState.kt",
+      "sha256": "D138918039437A2161F6169543011C0F5AEACC653DFE2FA1DE5DD0AAF2D1E8BF"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/components/Paper.kt",
+      "sha256": "ECE0B8F380899D619C9EDC17AA713880C0D0219B9FF735ABEBDF03A9CBD31712"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/components/StatusBanner.kt",
+      "sha256": "83EAC7F2A83E2511FE367181E4883F5364F50A16AFCD8C74EE1D282E10872D3C"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/notifications/NotificationDetailScreen.kt",
+      "sha256": "D57FD7E4C86E702DB171252A189F41095868F8356C62552871E5EC3C506B3EB7"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/notifications/NotificationsScreen.kt",
+      "sha256": "5D49BCDC9B3CEA0BA298224A87C4D4558F1F19F722D204DF23A24A5ED8C71C3F"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/notifications/NotificationsViewModel.kt",
+      "sha256": "35BCA149D337BE70B2B9B81148F04A6479D51A4CE782E39737D6FBB843499947"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/AboutScreen.kt",
+      "sha256": "F230DD06C8B57FD7473F19F53B4A7D3B8008A0B996BEAC302CB5D192D76E6714"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/RetentionScreen.kt",
+      "sha256": "F990C49836F0BE07241150E9CF90C63D5A7AB39AFEC8486AC6AB6A614B3D1536"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/SettingsScreen.kt",
+      "sha256": "3A1FF22426CAF7D37B3812A0DF048329DACAD1BB4F15A4543BBA9B96D7543282"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/SettingsViewModel.kt",
+      "sha256": "46BDB457C42555B65ADD98739781D998C51BE5B4187EBA1EAF68F08EC9406E64"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/SourcesScreen.kt",
+      "sha256": "7086C00BD34661103BDC9AD2D910BC7F391FCC9E6305E0948DFD5BBFB54AEB8F"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/SourcesViewModel.kt",
+      "sha256": "1FCE25FAFD46D8EC51A1758B63EAF887682913E7E06DC3A19EB4D703863CC32C"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/status/StatusScreen.kt",
+      "sha256": "DCB8561895307DBE68718600C6F38CDBF5CAE964C444C87A583A606F45B686C6"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/status/StatusViewModel.kt",
+      "sha256": "441F372F7970218F9BAFB4B206ADD658CA47C6C5F78B060AE43E9BDA123FFF34"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/theme/Color.kt",
+      "sha256": "9AEECA055CEFE6130AC8A96B89D4DC5769C666EB1A6C45B9ADAF6EF2EC3D401C"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/theme/Theme.kt",
+      "sha256": "399508013FB643C4D433CBB0636808FBCB2EDA8A5729E5216B4144D6E5F59DAD"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/theme/Type.kt",
+      "sha256": "797F0910EBD0E241F515D5C33E09F65D117FD46EA6FB7C107C2AEBB8EE05437E"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/todo/TodoHomeScreen.kt",
+      "sha256": "06A1A2B7E3A7732872C44C66C69B51C9D3EACED34DEBEBE0511C38B0C5ACE789"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/TodoInkApp.kt",
+      "sha256": "06B456EF7F8A0376BECF9299D0D14120F01EE544CEADDDE1F4B13D9DAF984EEE"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "27305CD9F40C5914670643B893CBA1E3DF32DFAC80339DD107B8FA62AD015A2B"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "32715FF646F6B9FEF7C321138E4A14556C4A1F98A87B06070B56F41643DAD718"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "1EF62813FCFF415176F61CD4E3F43545057D68F0583E6BE743DD41F0AB122115"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "1A775386F0A06E49C6BD71975C258C681854B64B7FA0E81B142B27360F97C4AB"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "54661DE3B38DA6EDE1676B7891C534117CE6AA6459275E6894DC9F610F3AD1C5"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "sha256": "17D3DF0EB4F2C06DFF65AF366D50AAFD22508CF6719411A883E8AEFD7CDFF0E9"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "2CD80A5008226ED6E3886FCD64DC32409BB53469B8B1E05B38793F66394821D4"
+    },
+    {
+      "path": "app/src/test/java/com/todoink/app/notification/NotificationIntakeTest.kt",
+      "sha256": "92841C510F893F2C36FAF27715334CA0A7750124AB646944DBD64A8E8A855EB7"
+    },
+    {
+      "path": "app/src/test/java/com/todoink/app/notification/parser/GenericParserTest.kt",
+      "sha256": "A3F891080514252AC2ECE5CB7641096B9FB016E40219190375082816DE56CE65"
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "F55950EDC0EAF2E5868370D2FA3824BAC29E7239555BC42AB5454E06BDF8EC34"
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "5FF4359BB22B9436EC644207F9240F4E47B9A733FE03BA402C77944A05283574"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "sha256": "B2C81E09B54408ECCE3D6B47DEC8537CF487B32C734CC33CA2EB4EFFBFCD9E58"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7D3A4AC4DE1C32B59BC6A4EB8ECB8E612CCD0CF1AE1E99F66902DA64DF296172"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "7E0821D895908883350587C74476B717016AB416320C44DC82A10DEF916C6FB5"
+    },
+    {
+      "path": "gradlew",
+      "sha256": "B187B4C52E749F5760AFDD6FADC31B2A98AD35FB249BF0DFF03B72650F320409"
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "1D297E00BD21DE3ACE22B4D7F2DE1F9DFA858883D66BBF7C1CCBECCCEC8F4F3B"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6EBB5D6785DEB536F085F6EA0B7FAEAAAE094C44942FAFE084FAC6EFB0FF0DC6"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "EEBD4E6ACE17EBD0A5100FC8D098A74033CF2BE2EA76497EF0490A4FD627D36C"
+    }
+  ]
+}

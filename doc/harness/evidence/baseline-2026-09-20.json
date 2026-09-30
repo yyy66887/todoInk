@@ -1,0 +1,202 @@
+{
+  "capturedAt": "2026-09-20T13:25:55.8416576+08:00",
+  "gitBaseline": "unavailable: current directory is not a Git repository",
+  "files": [
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "16638b10502f3818ccac9dff0bda6d46ab8bdfbbc9268306893cbd0289e39539"
+    },
+    {
+      "path": "app/schemas/com.todoink.app.data.db.TodoInkDatabase/1.json",
+      "sha256": "94c560a1ea20a4268e3f1df8eaba0899e1f4c714b912b3f6be4c456abfca9e07"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "164e0328e93d8da71d310a1e9552130c15b80c6e9576be6ee332aabb74c252f3"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/Converters.kt",
+      "sha256": "d758b3ace4586a0df0a230120131c87779938be11905e512634cbeba3489f50f"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/NotificationSnapshotDao.kt",
+      "sha256": "69cdc481c491dfa65ed76fa0d266512a47ee993b3d72fee8c7cd4d351a7d251d"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/NotificationSnapshotEntity.kt",
+      "sha256": "9b05dd413c5858b142b66662ed8fc4e6ae6e94e9ee023cd6d9c134abdbdfefc9"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/db/TodoInkDatabase.kt",
+      "sha256": "7c151a8de0f8efe1ac29883a72a9a38bdbee14f095d9e2ba6055276f51ab9ec6"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/repository/NotificationRepository.kt",
+      "sha256": "74ee8f642305dc0940f286bb91a462d0394abdde18792ff427bd78dc4bbbe902"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/settings/ListenerStatusStore.kt",
+      "sha256": "8c0c0c438bb461ea448f59c87c92e9bb62db00f0771e7c2532433ecdc8a3e5d8"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/data/settings/SettingsRepository.kt",
+      "sha256": "b9fa3620fc27ccbd7cf0f5ea85b885d8d37ce0d4455d949eee962b076f8b301e"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/device/DeviceTransport.kt",
+      "sha256": "47a2fcedae6729eb4c8222a782d929b769364cfd71fe193faef99f7f7793ac14"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/di/ApplicationScope.kt",
+      "sha256": "30928d6297ec066c13bb5c50eca64ad138fe65344b063413508dd548d812df63"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/di/AppModule.kt",
+      "sha256": "2498c54b41bb10e84316aa0082d45e1241b9241afbaaf68d5075adf8bac075e0"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/MainActivity.kt",
+      "sha256": "a65215093722ae4a8f0844cd5cf3c587998950489516b306576de63bbfbc1156"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/model/NotificationSnapshotDraft.kt",
+      "sha256": "36970dc8dc0170be936c4d00e477cebed6f57bb1ad6b9ab4614a4f848491a600"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/model/ParsedMessage.kt",
+      "sha256": "4d54120d8fe90494b3a5411a71a3d68293f1d27c3191edc149e8d3679c4f7885"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/NotificationRecorder.kt",
+      "sha256": "82e23e99a02fb7a6819487595a44be042a6a451f66dac82ee50530bf3edfcfca"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/parser/GenericParser.kt",
+      "sha256": "c8a76122150bd6e273bfa8aa13e95094c8e49b4c5157b9a99faaffd7fdd6f526"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/parser/NotificationParser.kt",
+      "sha256": "270b53d49e6acc805502c664bb3c3230af4c28bba393216feb40b4ec650e5d3f"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/parser/ParserRegistry.kt",
+      "sha256": "5763230efdf694b669ea08fd0cd0f54fe431ab4c1cf1fe8119615e33178b5c19"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/SnapshotExtractor.kt",
+      "sha256": "935cdd015840399261d5794dcae5a8663e9c1c637a0a0cc326563266eb50f019"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/notification/TodoInkNotificationListenerService.kt",
+      "sha256": "7e6858c9b6c505225a98e08e639ca76ce2905bcb15c6565aecb7aae78fed2858"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/TodoInkApplication.kt",
+      "sha256": "bf276362159fca432ce8cc042a5ffe150163000130292d1ff7e9702e84729f37"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/notifications/NotificationsScreen.kt",
+      "sha256": "2496cecbe26feb82425c65fcbc37141d4ade39430a3fdd36e7c79ad036c713a6"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/notifications/NotificationsViewModel.kt",
+      "sha256": "84e37692aff5ac9d36ea19321d3a9c6801f4966c128b7f1ee83ea9d999b13cbc"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/SourceSettingsScreen.kt",
+      "sha256": "041d2459faf77b6fff4de79d32112d01c72f3d8431213686bb3e31090a03bdaa"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/settings/SourceSettingsViewModel.kt",
+      "sha256": "90d1e99853c4602f9295905b03f450289d6bad4274e0f02e851b1a3c16eb726f"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/status/StatusScreen.kt",
+      "sha256": "eca0d9653638929d4c0848159cc1d17bcc3d991bc6032671853b730e71f981fb"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/status/StatusViewModel.kt",
+      "sha256": "6c0f2bbe732d03dc185c566277dcf743ddcf9f295dc85c513cab53492762fc84"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/theme/Color.kt",
+      "sha256": "b1dce9bb2a5379de6c585416ce09755c57285457816a74294e734034103183ce"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/theme/Theme.kt",
+      "sha256": "e2d93c37d2d2e2a079477224d46c5efc8d6c50ac8616ae6dc8e404ae8f920772"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/theme/Type.kt",
+      "sha256": "4f530b7653ca27f935d0f82d50de41f2c74a589870348e4eea39a3a6cf57644f"
+    },
+    {
+      "path": "app/src/main/java/com/todoink/app/ui/TodoInkApp.kt",
+      "sha256": "05f45058f0ff4326b6309144c7be337c4a389e757686ce8a3de19e0e6e91baf0"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_launcher_foreground.xml",
+      "sha256": "27305cd9f40c5914670643b893cba1e3df32dfac80339dd107b8fa62ad015a2b"
+    },
+    {
+      "path": "app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "sha256": "32715ff646f6b9fef7c321138e4a14556c4a1f98a87b06070b56f41643dad718"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "sha256": "1ef62813fcff415176f61cd4e3f43545057d68f0583e6be743dd41f0ab122115"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "1a775386f0a06e49c6bd71975c258c681854b64b7fa0e81b142b27360f97c4ab"
+    },
+    {
+      "path": "app/src/main/res/values/themes.xml",
+      "sha256": "54661de3b38da6ede1676b7891c534117ce6aa6459275e6894dc9f610f3ad1c5"
+    },
+    {
+      "path": "app/src/main/res/xml/backup_rules.xml",
+      "sha256": "17d3df0eb4f2c06dff65af366d50aafd22508cf6719411a883e8aefd7cdff0e9"
+    },
+    {
+      "path": "app/src/main/res/xml/data_extraction_rules.xml",
+      "sha256": "2cd80a5008226ed6e3886fcd64dc32409bb53469b8b1e05b38793f66394821d4"
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "f55950edc0eaf2e5868370d2fa3824bac29e7239555bc42ab5454e06bdf8ec34"
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "5ff4359bb22b9436ec644207f9240f4e47b9a733fe03ba402c77944a05283574"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "sha256": "0f1940dbf100010ccad234eb82e872bd650cf8dda6c70cb557a0cf1cb8851f7b"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "7e0821d895908883350587c74476b717016ab416320c44dc82a10def916c6fb5"
+    },
+    {
+      "path": "gradlew",
+      "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409"
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6ebb5d6785deb536f085f6ea0b7faeaaae094c44942fafe084fac6efb0ff0dc6"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "eebd4e6ace17ebd0a5100fc8d098a74033cf2be2ea76497ef0490a4fd627d36c"
+    }
+  ]
+}

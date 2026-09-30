@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "modules": [":app"],
+  "sourceSets": ["main", "test", "androidTest"],
+  "sourceRoots": ["app/src/main/java", "app/src/main/kotlin"],
+  "requiredFiles": [
+    "AGENTS.md",
+    "doc/README.md",
+    "doc/reference/README.md",
+    "doc/harness/README.md",
+    "doc/harness/PROJECT.md",
+    "doc/harness/ARCHITECTURE.md",
+    "doc/harness/CONTRACTS.md",
+    "doc/harness/WORKFLOW.md",
+    "doc/harness/VERIFICATION.md",
+    "doc/harness/ROADMAP.md",
+    "doc/harness/STATE.md",
+    "doc/harness/templates/task.md",
+    "doc/harness/templates/verification.md",
+    "doc/harness/templates/handoff.md",
+    "doc/harness/templates/decision.md",
+    "doc/harness/decisions/0001-harness-scope.md",
+    "doc/harness/tasks/HARNESS-001.md",
+    "doc/harness/tasks/NI-001-source-filter.md",
+    "doc/harness/checks/check.ps1",
+    "doc/harness/checks/self-test.ps1",
+    "doc/harness/evidence/baseline-2026-09-20.json",
+    "settings.gradle.kts",
+    "app/build.gradle.kts",
+    "app/src/main/AndroidManifest.xml"
+  ],
+  "packages": [
+    {
+      "name": "com.todoink.app.notification.model",
+      "recursive": true,
+      "allow": ["com.todoink.app.notification.model.*"],
+      "forbid": ["android.*", "androidx.*"]
+    },
+    {
+      "name": "com.todoink.app.notification.parser",
+      "recursive": true,
+      "allow": ["com.todoink.app.notification.model.*", "com.todoink.app.notification.parser.*"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.notification",
+      "recursive": false,
+      "allow": ["com.todoink.app.notification.*", "com.todoink.app.data.repository.*", "com.todoink.app.data.settings.*", "com.todoink.app.di.ApplicationScope"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.data.repository",
+      "recursive": true,
+      "allow": ["com.todoink.app.data.repository.*", "com.todoink.app.data.db.*", "com.todoink.app.data.settings.*", "com.todoink.app.notification.model.*", "com.todoink.app.notification.parser.ParseResult", "com.todoink.app.time.AppClock"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.data.db",
+      "recursive": true,
+      "allow": ["com.todoink.app.data.db.*", "com.todoink.app.notification.model.ParsedMessage"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.data.settings",
+      "recursive": true,
+      "allow": ["com.todoink.app.data.settings.*", "com.todoink.app.di.ApplicationScope"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.ui",
+      "recursive": true,
+      "allow": ["com.todoink.app.ui.*", "com.todoink.app.data.repository.*", "com.todoink.app.data.settings.*"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.device",
+      "recursive": true,
+      "allow": ["com.todoink.app.device.*"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.time",
+      "recursive": true,
+      "allow": ["com.todoink.app.time.*"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app.di",
+      "recursive": true,
+      "allow": ["com.todoink.app.*"],
+      "forbid": []
+    },
+    {
+      "name": "com.todoink.app",
+      "recursive": false,
+      "allow": ["com.todoink.app.*"],
+      "forbid": []
+    }
+  ],
+  "exceptions": [
+    {
+      "file": "app/src/main/java/com/todoink/app/ui/notifications/NotificationsViewModel.kt",
+      "reference": "com.todoink.app.data.db.NotificationSnapshotEntity",
+      "reason": "Existing entity-backed StateFlow; remove in NI-006."
+    },
+    {
+      "file": "app/src/main/java/com/todoink/app/ui/notifications/NotificationsScreen.kt",
+      "reference": "com.todoink.app.data.db.NotificationSnapshotEntity",
+      "reason": "Existing entity-backed card; remove in NI-006."
+    },
+    {
+      "file": "app/src/main/java/com/todoink/app/ui/notifications/NotificationDetailScreen.kt",
+      "reference": "com.todoink.app.data.db.NotificationSnapshotEntity",
+      "reason": "Detail renders saved entity fields; migrate to UI model in NI-006."
+    }
+  ]
+}
